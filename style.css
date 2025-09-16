@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 15px 100px;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: linear-gradient(to top, #8ececf, #ffffff);
+    display: flex;
+    flex-direction: column;
+}
+
+/*Config*/
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #13162a;
+}
+
+p {
+    margin: 0;
+    width: 100%;
+}
+
+h3 {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+    margin: 0 0 20px 0;
+}
+
+h4 {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 900;
+    display: inline;
+}
+
+h5 {
+    display: inline;
+}
+
+.specialDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 15px 0;
+}
+
+.hr {
+    height: 2.5px;
+    width: 100%;
+    background-color: #13162a;
+    margin: 0 0 20px 0;
+}
+
+/*Head*/
+
+h1 {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-weight: 900;
+    font-size: 75px;
+    margin: 5px 0 0 0;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 55px;
+    color: #2d7874;
+}
+
+.desc {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+/*Contact*/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactItem {
+    display: block;
+}
+
+.contItem {
+    font-size: 20px;
+    margin: 0 0 15px 0;
+}
+
+/*Skills*/
+
+.skillsSections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skillListContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skillsList img {
+    height: 35px;
+}
+
+.skillsList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.softSkills {
+    width: 50%;
+}
+
+.softSkills ul {
+    list-style-type: disc;
+    font-size: 20px;
+}
+
+.softSkills li {
+    margin: 0 0 15px 0;
+}
+
+/*Block Exp*/
+
+.block {
+    background-color: rgb(255, 255, 255, 35%);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    padding: 35px;
+}
+
+.block .specialDiv {
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin: 0 25px 0 0;
+    width: 50%;
+}
+
+.block li {
+    list-style-type: disc;
+    margin: 0 0 15px 0;
+}
+
+.block a {
+    font-weight: 700;
+}
+
+.block a:hover {
+    color: #2d7874;
+}
+
+/*Lang*/
+
+footer {
+    margin: 25px 0 25px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.lang {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
