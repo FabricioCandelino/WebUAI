@@ -32,6 +32,11 @@ ul {
 a {
     text-decoration: none;
     color: #13162a;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #2d7874;
 }
 
 p {
@@ -179,14 +184,6 @@ h2 {
 .block li {
     list-style-type: disc;
     margin: 0 0 15px 0;
-}
-
-.block a {
-    font-weight: 700;
-}
-
-.block a:hover {
-    color: #2d7874;
 }
 
 /*Lang*/
